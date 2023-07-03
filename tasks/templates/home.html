@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="container py-5">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">TaskEase</h1>
+        <p>TaskEase is a simple and effective application for managing tasks. Organize your daily activities and assign importance levels to prioritize them. With a minimalist interface, adding tasks is quick and easy. Mark completed tasks and track your progress visually.</p>
+
+        <div class="text-center">
+            <a class="btn btn-secondary" href="{% url 'signin' %}">
+                Signin
+            </a>
+            <a class="btn btn-dark" href="{% url 'signup' %}">
+                Signin
+            </a>
+        </div>
+    </section>
+</main>
+{% endblock %}
